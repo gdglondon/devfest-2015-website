@@ -1,9 +1,11 @@
 default: dev copy_appengine_config
 
 generate:
+	gulp clean
 	gulp
 
 dev_server:
+	gulp clean
 	gulp serve
 
 copy_appengine_config:
