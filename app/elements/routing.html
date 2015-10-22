@@ -53,6 +53,17 @@
             document.querySelector('#people-block').closePerson();
         });
 
+        page('/schedule', function() {
+            trackPageview('/schedule');
+            app.route = 'schedule';
+            app.scrollToTop();
+        });
+        page('/schedule/:id', function(data) {
+            trackPageview('/schedule/' + data.params.id);
+            app.route = 'schedule';
+            app.params = data.params;
+        });
+
         page('/contact', function() {
             trackPageview('/contact');
             app.route = 'contact';
@@ -62,6 +73,12 @@
         page('/code-of-conduct', function() {
             trackPageview('/code-of-conduct');
             app.route = 'code-of-conduct';
+            app.scrollToTop();
+        });
+
+        page('/speaker-guidelines', function() {
+            trackPageview('/speaker-guidelines');
+            app.route = 'speaker-guidelines';
             app.scrollToTop();
         });
 
