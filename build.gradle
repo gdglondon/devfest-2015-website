@@ -1,34 +1,33 @@
-task cleanAndGenerate() << { 
-	exec {
-		workingDir projectDir
-		commandLine "gulp clean".split(" ")
-	}
+task generate() << { 
 	exec {
 		workingDir projectDir
 		commandLine "gulp"
 	}
+	copy {
+	    from "app.yaml"
+	    into "dist"
+	}
+	copy {
+	    from "app"
+	    into "dist"
+	}
 }
 
-task devServer(dependsOn: ["cleanAndGenerate", "copyAppengineConfig"]) << {
+task devServer(dependsOn: "generate") << {
 	exec {
 		workingDir projectDir
 		commandLine "gulp serve".split(" ")
 	}
 }
 
-task copyAppengineConfig() << {
-	copy {
-	    from "app.yaml"
-	    into "dist"
+task appengineDevServer(dependsOn: "generate") << {
+	exec {
+		workingDir "dist"
+		commandLine "dev_appserver.py .".split(" ")
 	}
 }
 
-task appengineDevServer(dependsOn: ["cleanAndGenerate", "copyAppengineConfig"]) << {
-	workingDir "dist"
-	commandLine "dev_appserver.py .".split(" ")
-}
-
-task appengineDeploy(dependsOn: ["cleanAndGenerate", "copyAppengineConfig"]) << {
+task appengineDeploy(dependsOn: "generate") << {
 	exec { 
 		workingDir "dist"
 		commandLine "/Users/nawaid/google-cloud-sdk/platform/google_appengine/appcfg.py -A copper-seeker-734 update .".split(" ")
