@@ -1,0 +1,39 @@
+task generate() << { 
+	exec {
+		workingDir projectDir
+		commandLine "gulp clean".split(" ")
+	}
+	exec {
+		workingDir projectDir
+		commandLine "gulp"
+	}
+}
+
+task devServer() << {
+	exec {
+		workingDir projectDir
+		commandLine "gulp serve".split(" ")
+	}
+}
+
+task copyAppengineConfig(type: Copy) << {
+    from 'app.yaml'
+    into 'dist/app.yaml'
+}
+
+task appengineDevServer(type: Exec, dependsOn: ["generate", "copyAppengineConfig"]){
+	workingDir "dist"
+	commandLine "dev_appserver.py .".split(" ")
+}
+
+task appengineDeploy() << {
+	exec { 
+		workingDir "dist"
+		commandLine "export PATH=$PATH:~/google-cloud-sdk/platform/google_appengine/".split(" ")
+	}
+	exec { 
+		workingDir "dist"
+		commandLine "appcfg.py -A bright-modem-108119 update .".split(" ")
+	}
+	
+}
