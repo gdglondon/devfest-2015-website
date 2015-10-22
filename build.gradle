@@ -1,4 +1,4 @@
-task generate() << { 
+task cleanAndGenerate() << { 
 	exec {
 		workingDir projectDir
 		commandLine "gulp clean".split(" ")
@@ -9,31 +9,28 @@ task generate() << {
 	}
 }
 
-task devServer() << {
+task devServer(dependsOn: ["cleanAndGenerate", "copyAppengineConfig"]) << {
 	exec {
 		workingDir projectDir
 		commandLine "gulp serve".split(" ")
 	}
 }
 
-task copyAppengineConfig(type: Copy) << {
-    from 'app.yaml'
-    into 'dist/app.yaml'
+task copyAppengineConfig() << {
+	copy {
+	    from "app.yaml"
+	    into "dist"
+	}
 }
 
-task appengineDevServer(type: Exec, dependsOn: ["generate", "copyAppengineConfig"]){
+task appengineDevServer(dependsOn: ["cleanAndGenerate", "copyAppengineConfig"]) << {
 	workingDir "dist"
 	commandLine "dev_appserver.py .".split(" ")
 }
 
-task appengineDeploy() << {
+task appengineDeploy(dependsOn: ["cleanAndGenerate", "copyAppengineConfig"]) << {
 	exec { 
 		workingDir "dist"
-		commandLine "export PATH=$PATH:~/google-cloud-sdk/platform/google_appengine/".split(" ")
+		commandLine "/Users/nawaid/google-cloud-sdk/platform/google_appengine/appcfg.py -A copper-seeker-734 update .".split(" ")
 	}
-	exec { 
-		workingDir "dist"
-		commandLine "appcfg.py -A bright-modem-108119 update .".split(" ")
-	}
-	
 }
