@@ -93,8 +93,7 @@
             </paper-toolbar>
             <div class="content">
                 <div class="subtitle">
-                    <span>[[person.company]]</span>,
-                    <span>[[person.country]]</span>
+                    <span>[[person.company]]</span>
                 </div>
                 <div class="card-content person-tags">
                     <span class="tags-label">Tags:</span>
@@ -112,12 +111,6 @@
                     <template is="dom-repeat" items="[[person.sessions]]" as="session">
                         <div class="session">
                             <h3 class="session-title">[[session.title]]</h3>
-                            <span class="session-meta">Language:
-                                <span>[[session.language]]</span>
-                            </span>
-                            <span class="session-meta">Complexity:
-                                <span>[[session.complexity]]</span>
-                            </span>
                             <marked-element markdown="[[session.description]]"></marked-element>
                         </div>
                     </template>

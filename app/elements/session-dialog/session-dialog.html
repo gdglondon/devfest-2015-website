@@ -98,18 +98,6 @@
                         <iron-icon class="session-meta-icon" icon="room"></iron-icon>
                         <span>[[session.track.title]]</span>
                     </div>
-                    <template is="dom-if" if="[[session.complexity]]">
-                        <div class="meta-block">
-                            <iron-icon class="session-meta-icon" icon="extension"></iron-icon>
-                            <span>[[session.complexity]]</span>
-                        </div>
-                    </template>
-                    <template is="dom-if" if="[[session.language]]">
-                        <div class="meta-block">
-                            <iron-icon class="session-meta-icon" icon="font-download"></iron-icon>
-                            <span class="lang">[[session.language]]</span>
-                        </div>
-                    </template>
                 </div>
                 <div class="card-content session-description">
                     <marked-element markdown="[[session.description]]"></marked-element>

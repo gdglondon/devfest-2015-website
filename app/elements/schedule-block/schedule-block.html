@@ -194,7 +194,6 @@
                                                     <div class="session-detail layout vertical flex">
                                                         <div class="layout horizontal">
                                                             <h4 class="session-title flex">[[subSession.title]]</h4>
-                                                            <span class="lang">[[subSession.language]]</span>
                                                         </div>
                                                         <template is="dom-repeat" items="[[subSession.speakers]]" as="speaker">
                                                             <div class="speaker layout horizontal">
@@ -202,8 +201,7 @@
                                                                 <div class="person-detail flex layout vertical center-center">
                                                                     <span class="person-name self-start">[[speaker.name]]</span>
                                                                     <div class="person-title self-start">
-                                                                        <span>[[speaker.company]]</span>,
-                                                                        <span>[[speaker.country]]</span>
+                                                                        <span>[[speaker.company]]</span>
                                                                     </div>
                                                                 </div>
                                                             </div>
