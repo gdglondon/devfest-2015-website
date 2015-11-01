@@ -30,7 +30,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": 2,
         "featured": true,
         "name": "Sam Dutton",
         "title": "Developer Relations Engineer",
@@ -60,7 +60,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 3,
         "featured": true,
         "name": "Peter Beverloo",
         "title": "Senior Software Engineer",
@@ -69,7 +69,8 @@
         "photoUrl": "../../images/people/peter_beverloo.jpg",
         "bio": "I'm a member of the Chrome and Android teams in London, working on making the Web a first-class citizen on Android by bridging the capability gap between native apps and the Mobile Web. My current projects are Push Messaging and Web Notifications, their implementations in Chrome and Blink and development of their IETF, W3C and WHATWG standards.",
         "tags": [
-            "Web"
+            "Web",
+            "Android"
         ],
         "socials": [
             {
@@ -90,14 +91,14 @@
         ]
     },
     {
-        "id": 5,
+        "id": 4,
         "featured": true,
         "name": "Steven Gray",
         "title": "Software Researcher",
         "company": "University College London",
         "country": "UK",
         "photoUrl": "../../images/people/steven_gray.jpg",
-        "bio": "Steve has been a spatial software developer for the past 5 years, making visualising complex datasets on maps easier. With over 10 years of professional software development under his belt he has built multiple award winning systems and his work has been featured in various worldwide media outlets (CNN, BBC, etc). In recent years he has specialised on building mobile applications (mainly iOS) and systems that open up the world of data visualisation, mining and analysis to the masses. He can sometimes be found on StackOverflow answering questions about Google Maps API and the iOS SDK. In addition to this he also gives lectures and workshops to academics and industry partners on using Google Docs and Fusion Tables to create compelling visualisations to showcase on Google Maps and Google Earth. His current research focuses on distributed high performance computing and analysing large datasets in real-time (while mapping the results!). In his spare time you will find him walking long distances, climbing mountains, composing music or playing the piano or trumpet.",
+        "bio": "Steve has been a spatial software developer for the past five years, making visualising complex datasets on maps easier. With over 10 years' professional software development under his belt, he has built multiple award-winning systems and his work has been featured in various worldwide media outlets (CNN, BBC, etc). In recent years he has specialised in building mobile applications (mainly iOS) and systems that open up the world of data visualisation, mining and analysis to the masses. He can sometimes be found on StackOverflow – answering questions about Google Maps API and the iOS SDK. He also gives lectures and workshops to academics and industry partners on using Google Docs and Fusion Tables to create compelling visualisations to showcase on Google Maps and Google Earth. His current research focuses on distributed high-performance computing and analysing large datasets in real-time (while mapping the results!). In his spare time, you'll find him walking long distances, climbing mountains, composing music or playing the piano or trumpet",
         "tags": [
             "Cloud",
             "Maps",

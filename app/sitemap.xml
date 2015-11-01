@@ -11,8 +11,8 @@
         <changefreq>daily</changefreq>
     </url>
     <url>
-        <loc>http://devfest.gdg-london.com/#!/blog/call-for-speakers</loc>
-        <lastmod>2015-08-17</lastmod>
+        <loc>http://devfest.gdg-london.com/#!/schedule</loc>
+        <lastmod>daily</lastmod>
     </url>
     <url>
         <loc>http://devfest.gdg-london.com/#!/code-of-conduct</loc>
