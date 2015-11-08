@@ -7,3 +7,4 @@ test/bower_components/
 .publish
 app/app.yaml
 .gradle
+gradle-app.setting
