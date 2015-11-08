@@ -2,6 +2,94 @@
     {
         "id": 1,
         "featured": true,
+        "name": "David Li",
+        "title": "",
+        "company": "",
+        "country": "UK",
+        "photoUrl": "../../images/people/david_li.png",
+        "bio": "David is a graphics programmer striving to make beautiful things with code. He builds WebGL demos which attempt to push the visual boundaries of the web.",
+        "tags": [
+            "Web",
+            "WebGL"
+        ],
+        "socials": [
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "http://twitter.com/daviddotli"
+            },
+            {
+                "name": "Github",
+                "icon": "app-icons:github",
+                "link": "http://github.com/dli"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "featured": true,
+        "name": "Gerard Sans",
+        "title": "Senior Frontend JavaScript Developer",
+        "company": "Keytree",
+        "country": "UK",
+        "photoUrl": "../../images/people/gerard_sans.jpg",
+        "bio": "Gerard is a multi-talented Computer Science Engineer specialised in Web. He is now an AngularJS fanboy and a community activist fighting for the JavaScript revolution. He has lived and worked for all sorts of companies in Germany, Brazil, UK and Spain. He is always up for a good challenge. He enjoys running AngularJS Labs London, mentoring AngularJS students, participating in the community, giving talks and writing technical articles at Medium.",
+        "tags": [
+            "Web"
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/u/0/+GerardSans"
+            },
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/gerardsans"
+            },
+            {
+                "name": "Linkedin",
+                "icon": "app-icons:linkedin",
+                "link": "https://uk.linkedin.com/pub/gerard-sans/b/a37/299"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "featured": true,
+        "name": "Hoi Lam",
+        "title": "Subject-matter expert (IoT)",
+        "company": "Google",
+        "country": "UK",
+        "photoUrl": "../../images/people/hoi_lam.jpg",
+        "bio": "Hoi is a subject matter expert at Google for Wearables and Internet Of Things (IoT). He previously worked on Google Cast where he was part of the launch team for both the Google Cast SDK and Chromecast in Europe. Prior to joining Google, he founded Exahive to disrupt the mobile commerce marketplace with new technology and business models. Hoi was an Equity Research VP at Deutsche Bank and Citigroup between 2007-2012 advising technology CEOs, CFOs on corporate strategy and institutional investors on technology investments. Before banking, he was an enterprise architect at Accenture heading up product management for large client programmes. Hoi holds a Master and Bachelor degree in Space Engineering from the University of Cambridge.",
+        "tags": [
+            "Wearables",
+            "IoT",
+            "Android"
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/+HoiLam"
+            },
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/hoitab"
+            },
+            {
+                "name": "Linkedin",
+                "icon": "app-icons:linkedin",
+                "link": "https://uk.linkedin.com/in/hoilam"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "featured": true,
         "name": "Mandy Waite",
         "title": "Developer Relations Engineer",
         "company": "Google",
@@ -30,37 +118,7 @@
         ]
     },
     {
-        "id": 2,
-        "featured": true,
-        "name": "Sam Dutton",
-        "title": "Developer Relations Engineer",
-        "company": "Google",
-        "country": "UK",
-        "photoUrl": "../../images/people/sam_dutton.jpg",
-        "bio": "Sam Dutton is a Developer Advocate for Google Chrome, specialising in media APIs. He publishes the monthly media tech newsletter medianews.me and maintains simpl.info, which provides simplest possible examples of HTML, CSS and JavaScript. Sam grew up in South Australia, went to university in Sydney, and has lived since 1986 in London. From 2008 to 2010 he was a Senior Engineer at BBC R&D and a Technical Lead for the EU P2P-Next project. From 1999 to 2008 he worked for ITN, where he built the Shotlister news video cataloguing platform. Sam has designed and coded lots of websites, including previous incarnations of itn.co.uk and deccaclassics.com.",
-        "tags": [
-            "Web"
-        ],
-        "socials": [
-            {
-                "name": "Google+",
-                "icon": "app-icons:gplus",
-                "link": "https://plus.google.com/+samdutton"
-            },
-            {
-                "name": "Twitter",
-                "icon": "app-icons:twitter",
-                "link": "https://twitter.com/sw12"
-            },
-            {
-                "name": "Linkedin",
-                "icon": "app-icons:linkedin",
-                "link": "https://uk.linkedin.com/in/samdutton"
-            }
-        ]
-    },
-    {
-        "id": 3,
+        "id": 5,
         "featured": true,
         "name": "Peter Beverloo",
         "title": "Senior Software Engineer",
@@ -91,7 +149,37 @@
         ]
     },
     {
-        "id": 4,
+        "id": 6,
+        "featured": true,
+        "name": "Sam Dutton",
+        "title": "Developer Relations Engineer",
+        "company": "Google",
+        "country": "UK",
+        "photoUrl": "../../images/people/sam_dutton.jpg",
+        "bio": "Sam Dutton is a Developer Advocate for Google Chrome, specialising in media APIs. He publishes the monthly media tech newsletter medianews.me and maintains simpl.info, which provides simplest possible examples of HTML, CSS and JavaScript. Sam grew up in South Australia, went to university in Sydney, and has lived since 1986 in London. From 2008 to 2010 he was a Senior Engineer at BBC R&D and a Technical Lead for the EU P2P-Next project. From 1999 to 2008 he worked for ITN, where he built the Shotlister news video cataloguing platform. Sam has designed and coded lots of websites, including previous incarnations of itn.co.uk and deccaclassics.com.",
+        "tags": [
+            "Web"
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/+samdutton"
+            },
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/sw12"
+            },
+            {
+                "name": "Linkedin",
+                "icon": "app-icons:linkedin",
+                "link": "https://uk.linkedin.com/in/samdutton"
+            }
+        ]
+    },
+    {
+        "id": 7,
         "featured": true,
         "name": "Steven Gray",
         "title": "Software Researcher",
@@ -124,94 +212,6 @@
                 "name": "Linkedin",
                 "icon": "app-icons:linkedin",
                 "link": "https://www.linkedin.com/in/stevenjamesgray"
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "featured": true,
-        "name": "Gerard Sans",
-        "title": "Senior Frontend JavaScript Developer",
-        "company": "Keytree",
-        "country": "UK",
-        "photoUrl": "../../images/people/gerard_sans.jpg",
-        "bio": "Gerard is a multi-talented Computer Science Engineer specialised in Web. He is now an AngularJS fanboy and a community activist fighting for the JavaScript revolution. He has lived and worked for all sorts of companies in Germany, Brazil, UK and Spain. He is always up for a good challenge. He enjoys running AngularJS Labs London, mentoring AngularJS students, participating in the community, giving talks and writing technical articles at Medium.",
-        "tags": [
-            "Web"
-        ],
-        "socials": [
-            {
-                "name": "Google+",
-                "icon": "app-icons:gplus",
-                "link": "https://plus.google.com/u/0/+GerardSans"
-            },
-            {
-                "name": "Twitter",
-                "icon": "app-icons:twitter",
-                "link": "https://twitter.com/gerardsans"
-            },
-            {
-                "name": "Linkedin",
-                "icon": "app-icons:linkedin",
-                "link": "https://uk.linkedin.com/pub/gerard-sans/b/a37/299"
-            }
-        ]
-    },
-    {
-        "id": 6,
-        "featured": true,
-        "name": "Hoi Lam",
-        "title": "Subject-matter expert (IoT)",
-        "company": "Google",
-        "country": "UK",
-        "photoUrl": "../../images/people/hoi_lam.jpg",
-        "bio": "Hoi is a subject matter expert at Google for Wearables and Internet Of Things (IoT). He previously worked on Google Cast where he was part of the launch team for both the Google Cast SDK and Chromecast in Europe. Prior to joining Google, he founded Exahive to disrupt the mobile commerce marketplace with new technology and business models. Hoi was an Equity Research VP at Deutsche Bank and Citigroup between 2007-2012 advising technology CEOs, CFOs on corporate strategy and institutional investors on technology investments. Before banking, he was an enterprise architect at Accenture heading up product management for large client programmes. Hoi holds a Master and Bachelor degree in Space Engineering from the University of Cambridge.",
-        "tags": [
-            "Wearables",
-            "IoT",
-            "Android"
-        ],
-        "socials": [
-            {
-                "name": "Google+",
-                "icon": "app-icons:gplus",
-                "link": "https://plus.google.com/+HoiLam"
-            },
-            {
-                "name": "Twitter",
-                "icon": "app-icons:twitter",
-                "link": "https://twitter.com/hoitab"
-            },
-            {
-                "name": "Linkedin",
-                "icon": "app-icons:linkedin",
-                "link": "https://uk.linkedin.com/in/hoilam"
-            }
-        ]
-    },
-    {
-        "id": 7,
-        "featured": true,
-        "name": "David Li",
-        "title": "",
-        "company": "",
-        "country": "UK",
-        "photoUrl": "../../images/people/david_li.png",
-        "bio": "David is a graphics programmer striving to make beautiful things with code. He builds WebGL demos which attempt to push the visual boundaries of the web.",
-        "tags": [
-            "Web",
-            "WebGL"
-        ],
-        "socials": [
-            {
-                "name": "Twitter",
-                "icon": "app-icons:twitter",
-                "link": "http://twitter.com/daviddotli"
-            },
-            {
-                "name": "Github",
-                "icon": "app-icons:github",
-                "link": "http://github.com/dli"
             }
         ]
     }

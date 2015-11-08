@@ -45,46 +45,22 @@
         "video": ""
     },
     {
-        "id": 1006,
-        "title": "Talk",
-        "description": "TBC",
-        "language": "",
-        "complexity": "",
-        "presentation": "",
-        "video": ""
-    },
-    {
         "id": 1,
-        "title": "Hooked on HTTP/2: Building services with gRPC",
-        "description": "gRPC is a language-neutral, platform-neutral RPC framework and toolset which is based on the finalized HTTP/2 standard and developed and open sourced by Google. It can be used to build highly performant, scalable APIs by allowing developers to define services using a powerful binary serialization toolset and language called Protocol Buffers. It can also be used to generate idiomatic client and server stubs from service definitions written in a variety of languages. In this session you’ll learn all about gRPC and how it benefits from being based on HTTP/2 and through the use of a working demo and detailed code examples you’ll learn how to build gRPC enabled microservices and clients.",
+        "title": "fans.start() - Saving on heating bills with WebGL",
+        "description": "A trip through real-time graphics programming using WebGL through in-depth technical breakdowns of various demos, featuring massive particle systems, volumetric rendering, fluid dynamics simulations, and more.",
         "speakers": [
             1
         ],
         "presentation": "",
         "video": "",
         "tags": [
-            "Cloud"
+            "Web"
         ]
     },
     {
         "id": 2,
-        "title": "What’s my car thinking? - A different type of mobile computing",
-        "description": "We have all heard in the news of the rise of car manufacturers lying to drivers about their car's performance, but what happens if you own an old car? Do you even have or use a car in London? If not then you might not care.  Anyway, come and find out how I used an Android phone, an embedded bluetooth sensor, Google Maps and a whole load of Google Cloud Services to figure out what was happening under the hood.  Plus, for an extra bonus, we will go into detail of some the Easter Eggs and features that now available in Google Maps App as well as some other fun things you might not know about Google Maps.  You'll never look at a Google map the same way again! ",
-        "speakers": [
-            4
-        ],
-        "presentation": "",
-        "video": "",
-        "tags": [
-            "Cloud",
-            "Android",
-            "Maps"
-        ]
-    },
-    {
-        "id": 3,
-        "title": "Building for the next billion users",
-        "description": "The next billion users who are coming online for the first time aren’t restricted to any particular region: they’re in the Americas, EMEA, and APAC. As developers, we want to build for everyone — and we need to make sure the 'next billion users' can rely on our products and services. In this session you will learn how to design apps and sites for any context where connectivity is flakey, bandwidth is limited, or data is prohibitively expensive.",
+        "title": "Asynchronous Data Streams in Angular 2",
+        "description": "Angular 2 introduces a new Data Architecture based on Reactive Programming. We are really excited to see the new approach using Observable sequences aka Observables. Besides, the new HTTP module was released only a month ago! We will cover a basic introduction of Angular 2 followed by streams and the new HTTP API covering some basic use cases.",
         "speakers": [
             2
         ],
@@ -95,9 +71,9 @@
         ]
     },
     {
-        "id": 4,
-        "title": "TBC",
-        "description": "",
+        "id": 3,
+        "title": "Give your users superpowers in the real world",
+        "description": "People no longer need to sit at a desk to get the benefits of technology. You can now build experiences that work seamlessly between the digital world and the real world. Superpowers that would not have been possible, too complex or prohibitively expensive are now possible. Join this session for the latest update from Google on the platform components now available.",
         "speakers": [
             3
         ],
@@ -108,9 +84,22 @@
         ]
     },
     {
+        "id": 4,
+        "title": "Hooked on HTTP/2: Building services with gRPC",
+        "description": "gRPC is a language-neutral, platform-neutral RPC framework and toolset which is based on the finalized HTTP/2 standard and developed and open sourced by Google. It can be used to build highly performant, scalable APIs by allowing developers to define services using a powerful binary serialization toolset and language called Protocol Buffers. It can also be used to generate idiomatic client and server stubs from service definitions written in a variety of languages. In this session you’ll learn all about gRPC and how it benefits from being based on HTTP/2 and through the use of a working demo and detailed code examples you’ll learn how to build gRPC enabled microservices and clients.",
+        "speakers": [
+            4
+        ],
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Cloud"
+        ]
+    },
+    {
         "id": 5,
-        "title": "Asynchronous Data Streams in Angular 2",
-        "description": "Angular 2 introduces a new Data Architecture based on Reactive Programming. We are really excited to see the new approach using Observable sequences aka Observables. Besides, the new HTTP module was released only a month ago! We will cover a basic introduction of Angular 2 followed by streams and the new HTTP API covering some basic use cases.",
+        "title": "TBC",
+        "description": "",
         "speakers": [
             5
         ],
@@ -122,8 +111,8 @@
     },
     {
         "id": 6,
-        "title": "Give your users superpowers in the real world",
-        "description": "People no longer need to sit at a desk to get the benefits of technology. You can now build experiences that work seamlessly between the digital world and the real world. Superpowers that would not have been possible, too complex or prohibitively expensive are now possible. Join this session for the latest update from Google on the platform components now available.",
+        "title": "Building for the next billion users",
+        "description": "The next billion users who are coming online for the first time aren’t restricted to any particular region: they’re in the Americas, EMEA, and APAC. As developers, we want to build for everyone — and we need to make sure the 'next billion users' can rely on our products and services. In this session you will learn how to design apps and sites for any context where connectivity is flakey, bandwidth is limited, or data is prohibitively expensive.",
         "speakers": [
             6
         ],
@@ -135,15 +124,17 @@
     },
     {
         "id": 7,
-        "title": "fans.start() - Saving on heating bills with WebGL",
-        "description": "A trip through real-time graphics programming using WebGL through in-depth technical breakdowns of various demos, featuring massive particle systems, volumetric rendering, fluid dynamics simulations, and more.",
+        "title": "What’s my car thinking? - A different type of mobile computing",
+        "description": "We have all heard in the news of the rise of car manufacturers lying to drivers about their car's performance, but what happens if you own an old car? Do you even have or use a car in London? If not then you might not care.  Anyway, come and find out how I used an Android phone, an embedded bluetooth sensor, Google Maps and a whole load of Google Cloud Services to figure out what was happening under the hood.  Plus, for an extra bonus, we will go into detail of some the Easter Eggs and features that now available in Google Maps App as well as some other fun things you might not know about Google Maps.  You'll never look at a Google map the same way again! ",
         "speakers": [
             7
         ],
         "presentation": "",
         "video": "",
         "tags": [
-            "Web"
+            "Cloud",
+            "Android",
+            "Maps"
         ]
     }
 ]
