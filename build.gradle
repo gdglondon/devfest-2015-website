@@ -1,0 +1,56 @@
+ext {
+    APPLICATION_ID = "copper-seeker-734"
+    APPENGINE_SDK = String.format("/Users/nawaid/google-cloud-sdk/platform/google_appengine", System.getProperty("user.home"))
+}
+
+class RunCommands extends DefaultTask {
+    def commands
+
+    @TaskAction
+    def run() {
+        for (String command : commands) {
+            logger.quiet(command)
+            Process process = command.execute()
+            process.consumeProcessOutput(System.out, System.err)
+            if (process.waitFor() != 0) {
+                throw new GradleException("Failed: " + command)
+            }
+        }
+    }
+}
+
+task startDevelopmentServer(type: Exec) {
+    group = "Devfest Website"
+    commandLine "gulp", "serve"
+}
+
+task copyAppEngineFiles() {
+    group = "Devfest Website"
+    doLast {
+        exec {
+            commandLine "gulp"
+        }
+        task copyDocs(type: Copy) {
+
+        }
+        copy {
+            from "app.yaml"
+            into "app"
+        }
+        copy {
+            from "app.yaml"
+            into "dist"
+        }
+    }
+}
+
+task appengineDeploy(type: RunCommands) {
+    group = "Devfest Website"
+    dependsOn copyAppEngineFiles
+    commands = [
+        String.format("%s/appcfg.py -A %s update dist", APPENGINE_SDK, APPLICATION_ID)
+    ]
+}
+
+
+

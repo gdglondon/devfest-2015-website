@@ -130,7 +130,7 @@
     {
         "id": 5,
         "featured": true,
-        "name": "Gerard Sans ",
+        "name": "Gerard Sans",
         "title": "Senior Frontend JavaScript Developer",
         "company": "Keytree",
         "country": "UK",
@@ -154,6 +154,64 @@
                 "name": "Linkedin",
                 "icon": "app-icons:linkedin",
                 "link": "https://uk.linkedin.com/pub/gerard-sans/b/a37/299"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "featured": true,
+        "name": "Hoi Lam",
+        "title": "Subject-matter expert (IoT)",
+        "company": "Google",
+        "country": "UK",
+        "photoUrl": "../../images/people/hoi_lam.jpg",
+        "bio": "Hoi is a subject matter expert at Google for Wearables and Internet Of Things (IoT). He previously worked on Google Cast where he was part of the launch team for both the Google Cast SDK and Chromecast in Europe. Prior to joining Google, he founded Exahive to disrupt the mobile commerce marketplace with new technology and business models. Hoi was an Equity Research VP at Deutsche Bank and Citigroup between 2007-2012 advising technology CEOs, CFOs on corporate strategy and institutional investors on technology investments. Before banking, he was an enterprise architect at Accenture heading up product management for large client programmes. Hoi holds a Master and Bachelor degree in Space Engineering from the University of Cambridge.",
+        "tags": [
+            "Wearables",
+            "IoT",
+            "Android"
+        ],
+        "socials": [
+            {
+                "name": "Google+",
+                "icon": "app-icons:gplus",
+                "link": "https://plus.google.com/+HoiLam"
+            },
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "https://twitter.com/hoitab"
+            },
+            {
+                "name": "Linkedin",
+                "icon": "app-icons:linkedin",
+                "link": "https://uk.linkedin.com/in/hoilam"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "featured": true,
+        "name": "David Li",
+        "title": "",
+        "company": "",
+        "country": "UK",
+        "photoUrl": "../../images/people/david_li.png",
+        "bio": "David is a graphics programmer striving to make beautiful things with code. He builds WebGL demos which attempt to push the visual boundaries of the web.",
+        "tags": [
+            "Web",
+            "WebGL"
+        ],
+        "socials": [
+            {
+                "name": "Twitter",
+                "icon": "app-icons:twitter",
+                "link": "http://twitter.com/daviddotli"
+            },
+            {
+                "name": "Github",
+                "icon": "app-icons:github",
+                "link": "http://github.com/dli"
             }
         ]
     }

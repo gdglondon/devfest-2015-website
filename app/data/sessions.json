@@ -119,5 +119,31 @@
         "tags": [
             "Web"
         ]
+    },
+    {
+        "id": 6,
+        "title": "Give your users superpowers in the real world",
+        "description": "People no longer need to sit at a desk to get the benefits of technology. You can now build experiences that work seamlessly between the digital world and the real world. Superpowers that would not have been possible, too complex or prohibitively expensive are now possible. Join this session for the latest update from Google on the platform components now available.",
+        "speakers": [
+            6
+        ],
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Web"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "fans.start() - Saving on heating bills with WebGL",
+        "description": "A trip through real-time graphics programming using WebGL through in-depth technical breakdowns of various demos, featuring massive particle systems, volumetric rendering, fluid dynamics simulations, and more.",
+        "speakers": [
+            7
+        ],
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Web"
+        ]
     }
 ]
