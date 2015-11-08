@@ -80,5 +80,44 @@
             "Android",
             "Maps"
         ]
+    },
+    {
+        "id": 3,
+        "title": "Building for the next billion users",
+        "description": "The next billion users who are coming online for the first time aren’t restricted to any particular region: they’re in the Americas, EMEA, and APAC. As developers, we want to build for everyone — and we need to make sure the 'next billion users' can rely on our products and services. In this session you will learn how to design apps and sites for any context where connectivity is flakey, bandwidth is limited, or data is prohibitively expensive.",
+        "speakers": [
+            2
+        ],
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Web"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "TBC",
+        "description": "",
+        "speakers": [
+            3
+        ],
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Web"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Asynchronous Data Streams in Angular 2",
+        "description": "Angular 2 introduces a new Data Architecture based on Reactive Programming. We are really excited to see the new approach using Observable sequences aka Observables. Besides, the new HTTP module was released only a month ago! We will cover a basic introduction of Angular 2 followed by streams and the new HTTP API covering some basic use cases.",
+        "speakers": [
+            5
+        ],
+        "presentation": "",
+        "video": "",
+        "tags": [
+            "Web"
+        ]
     }
 ]
