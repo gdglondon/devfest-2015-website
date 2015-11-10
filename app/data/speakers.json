@@ -35,7 +35,8 @@
         "photoUrl": "../../images/people/gerard_sans.jpg",
         "bio": "Gerard is a multi-talented Computer Science Engineer specialised in Web. He is now an AngularJS fanboy and a community activist fighting for the JavaScript revolution. He has lived and worked for all sorts of companies in Germany, Brazil, UK and Spain. He is always up for a good challenge. He enjoys running AngularJS Labs London, mentoring AngularJS students, participating in the community, giving talks and writing technical articles at Medium.",
         "tags": [
-            "Web"
+            "Web",
+            "AngularJS"
         ],
         "socials": [
             {
@@ -57,6 +58,26 @@
     },
     {
         "id": 3,
+        "featured": true,
+        "name": "Grace Mollison",
+        "title": "Senior Solutions Architect",
+        "company": "Google",
+        "country": "UK",
+        "photoUrl": "../../images/people/grace_mollison.jpg",
+        "bio": "",
+        "tags": [
+            "Cloud"
+        ],
+        "socials": [
+            {
+                "name": "Linkedin",
+                "icon": "app-icons:linkedin",
+                "link": "https://www.linkedin.com/in/grace-mollison-6296614"
+            }
+        ]
+    },
+    {
+        "id": 4,
         "featured": true,
         "name": "Hoi Lam",
         "title": "Subject-matter expert (IoT)",
@@ -88,7 +109,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 5,
         "featured": true,
         "name": "Mandy Waite",
         "title": "Developer Relations Engineer",
@@ -97,7 +118,8 @@
         "photoUrl": "../../images/people/mandy_waite.jpg",
         "bio": "Based in London, UK, Mandy is a Developer Relations Engineer at Google specializing in Container and Cloud technologies and working to make the world a better place for developers building applications for the Cloud. Before Google Mandy worked at Sun Microsystems on performance and scalability of Java and JavaEE and on porting Open Source apps to OpenSolaris. In her spare time Mandy is learning Japanese and likes to play the guitar.",
         "tags": [
-            "Cloud"
+            "Cloud",
+            "gRPC"
         ],
         "socials": [
             {
@@ -118,7 +140,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 6,
         "featured": true,
         "name": "Peter Beverloo",
         "title": "Senior Software Engineer",
@@ -128,7 +150,8 @@
         "bio": "Peter Beverloo is a Software Engineer on the Chrome and Android teams at Google London. Focusing on making the Web a first-class citizen on Android by bridging the capability gap between native apps and the Mobile Web, he's recently worked on both the standardization and implementation aspects of the Push API and Web Notifications.",
         "tags": [
             "Web",
-            "Android"
+            "Android",
+            "Webapps"
         ],
         "socials": [
             {
@@ -149,7 +172,7 @@
         ]
     },
     {
-        "id": 6,
+        "id": 7,
         "featured": true,
         "name": "Sam Dutton",
         "title": "Developer Relations Engineer",
@@ -179,7 +202,7 @@
         ]
     },
     {
-        "id": 7,
+        "id": 8,
         "featured": true,
         "name": "Steven Gray",
         "title": "Software Researcher",
