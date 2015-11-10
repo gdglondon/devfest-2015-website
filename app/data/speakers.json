@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "featured": true,
+        "featured": false,
         "name": "David Li",
         "title": "",
         "company": "",
@@ -27,7 +27,7 @@
     },
     {
         "id": 2,
-        "featured": true,
+        "featured": false,
         "name": "Gerard Sans",
         "title": "Senior Frontend JavaScript Developer",
         "company": "Keytree",
@@ -125,7 +125,7 @@
         "company": "Google",
         "country": "UK",
         "photoUrl": "../../images/people/peter_beverloo.jpg",
-        "bio": "Peter is a member of the Chrome and Android teams in London, working on making the Web a first-class citizen on Android by bridging the capability gap between native apps and the Mobile Web. His current projects are Push Messaging and Web Notifications, their implementations in Chrome and Blink and development of their IETF, W3C and WHATWG standards.",
+        "bio": "Peter Beverloo is a Software Engineer on the Chrome and Android teams at Google London. Focusing on making the Web a first-class citizen on Android by bridging the capability gap between native apps and the Mobile Web, he's recently worked on both the standardization and implementation aspects of the Push API and Web Notifications.",
         "tags": [
             "Web",
             "Android"

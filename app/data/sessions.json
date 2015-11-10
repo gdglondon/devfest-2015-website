@@ -98,8 +98,8 @@
     },
     {
         "id": 5,
-        "title": "TBC",
-        "description": "",
+        "title": "Progressive Web Apps and Push Notifications",
+        "description": "There have historically been significant differences between native apps and the Mobile Web in regards to performance, capabilities and user expectations. On Android, Web apps live in the browser, while native apps are everywhere. In this session you will learn about Progressive Web Apps, Push Notifications and other recent changes in Chrome that enable you to deliver rich and integrated experiences that delight your users.",
         "speakers": [
             5
         ],
