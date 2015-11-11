@@ -74,8 +74,8 @@
     },
     {
         "id": 3,
-        "title": "TBC (Cloud)",
-        "description": "",
+        "title": "Why Google Cloud Platform is the cloud for you",
+        "description": "Google Cloud Platform is a world class platform for running all sorts of applications. In this session learn about the philosophy behind Google Cloud Platform and why it is 'the' platform for running your application. Google is a company that has been delivering internet scale solutions like search, Gmail etc for years and are always looking at ways to make developers more productive. This Session will explain how by using Google Cloud Platform  you can become as productive as Google developers.",
         "speakers": [
             3
         ],
