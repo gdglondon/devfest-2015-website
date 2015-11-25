@@ -1,5 +1,5 @@
 application: copper-seeker-734
-version: 2015-updated
+version: 2015
 runtime: python27
 api_version: 1
 threadsafe: no
@@ -10,6 +10,9 @@ handlers:
 
 - url: /data
   static_dir: data
+
+- url: /posts
+  static_dir: posts
 
 - url: /elements
   static_dir: elements
