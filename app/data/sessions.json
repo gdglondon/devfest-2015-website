@@ -131,8 +131,8 @@
     },
     {
         "id": 7,
-        "title": "Building for the next billion users",
-        "description": "The next billion users who are coming online for the first time aren’t restricted to any particular region: they’re in the Americas, EMEA, and APAC. As developers, we want to build for everyone — and we need to make sure the 'next billion users' can rely on our products and services. In this session you will learn how to design apps and sites for any context where connectivity is flakey, bandwidth is limited, or data is prohibitively expensive.",
+        "title": "Media for the next billion users",
+        "description": "Learn about the powerful new media APIs and platforms that enable delivery of audio and video to a variety of devices and usage contexts. Find out to how cope with flakey connectivity and variable bandwidth, how to record video and interact with input and output devices via JavaScript  — and learn about the future of codec engineering and the media industry.",
         "speakers": [
             7
         ],
